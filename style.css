@@ -1,0 +1,32 @@
+.box{
+    background-color: red;
+    
+    width: 100px;
+    height: 100px;
+    animation: slide 4s infinite 0s ;
+}
+
+@keyframes slide {
+    0%{
+        background-color: red;
+        transform: translate(0%, 0%);
+    }
+    25%{
+        background-color: blue;
+        transform: translate(0%, 200px);
+    }
+    50%{
+        background-color: green;
+        transform: translate(200px, 200px);
+    }
+    75%{
+        background-color: yellow;
+        transform: translate(200px, 0%);
+    }
+    100%{
+        background-color: red;
+        transform: translate(0%, 0%);
+    }
+
+}
+
